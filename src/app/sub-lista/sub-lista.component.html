@@ -1,0 +1,8 @@
+<p>
+  probando !!!
+</p>
+<input type="text" #tituloSubLista>
+<button (click)="crearSubLista(tituloSubLista.value)">Nueva Tarea</button>
+<div class="prueba2" *ngFor="let tarea of subLista">
+  <span>{{tarea.titulo2}}</span>
+</div>

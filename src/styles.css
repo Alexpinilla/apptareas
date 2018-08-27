@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0 auto;
+
+    background-image: url(assets/fondo.png);
+    color: rgb(0, 0, 0);
+    border-color: rgb(27, 27, 27); 
+    background-attachment: fixed;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.contender{
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}

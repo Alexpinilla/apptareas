@@ -1,0 +1,43 @@
+
+.bloqueCrearLista{
+    margin: 0 auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    height:90px;
+    max-width: 960px;
+    background: rgba(0, 0, 0, 0.6);
+    display:flex;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: black;
+    border-width: 1px;
+}
+.lista{
+    width: 300px;
+    height:200px;
+    margin: 5px;
+    padding: 5px;
+    background:rgba(0, 0, 0, 0.2);
+    color: white;
+    border-width: 4px;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border-width: 1px;
+}
+.titulo {
+    color: rgb(34, 34, 34);
+    margin: 0 auto;
+    background: transparent;
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.prueba{
+    display:inline-flex;
+    margin:0 auto;
+}
+prueba2{
+    background:transparent;
+}
