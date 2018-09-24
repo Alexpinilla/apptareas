@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
 *{
     margin: 0 auto;
-
+    font-family: 'Montserrat', sans-serif;
     background-image: url(assets/fondo.png);
     color: rgb(0, 0, 0);
     border-color: rgb(27, 27, 27); 
@@ -9,10 +10,18 @@
     margin: 0 auto;
     align-items: center;
 }
-.contender{
-    display:inline-flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
+.contenedor{
+   max-width: 968px;
+   margin-top: 5px;
+   margin: 0 auto;
+   margin-top: 5px;
+   margin-bottom: 5px;
+
+}
+button {
+    padding: 3px;
+}
+input {
+    padding: 3px;
+    background: rgba(180, 180, 180)
 }
