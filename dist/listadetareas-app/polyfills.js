@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Alex\Desktop\A L E X\A L E X\Web\webpersonal\angularScrum\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Users\Alex\Desktop\A L E X\A L E X\angularScrum\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

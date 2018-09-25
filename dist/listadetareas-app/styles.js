@@ -580,8 +580,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Alex\Desktop\A L E X\A L E X\Web\webpersonal\angularScrum\src\reset.css */"./src/reset.css");
-module.exports = __webpack_require__(/*! C:\Users\Alex\Desktop\A L E X\A L E X\Web\webpersonal\angularScrum\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\Alex\Desktop\A L E X\A L E X\angularScrum\src\reset.css */"./src/reset.css");
+module.exports = __webpack_require__(/*! C:\Users\Alex\Desktop\A L E X\A L E X\angularScrum\src\styles.css */"./src/styles.css");
 
 
 /***/ })
