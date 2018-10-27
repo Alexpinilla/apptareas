@@ -11,11 +11,16 @@ export class AppComponent {
   title = 'listadetareas-app';
   listas = [];
   crearLista(titulo){
+    if (titulo!=""){
     var nuevaLista={
       titulo: titulo,
       subLista: []
     }
     this.listas.push(nuevaLista)
+  }
+  else {
+    alert('Introduce un título')
+  }
   };
   eliminarLista(tarea){
     console.log(this.listas.indexOf(tarea));

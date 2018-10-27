@@ -23,5 +23,6 @@ button {
 }
 input {
     padding: 3px;
-    background: rgba(180, 180, 180)
+    background: rgba(180, 180, 180);
+    max-width: 200px;
 }
