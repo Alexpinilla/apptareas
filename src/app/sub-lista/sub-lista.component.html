@@ -1,8 +1,11 @@
-<p>
-  probando !!!
-</p>
-<input type="text" #tituloSubLista>
-<button (click)="crearSubLista(tituloSubLista.value)">Nueva Tarea</button>
+<input type="text" #tituloSubLista (keyup.enter)="crearSubLista(tituloSubLista.value); tituloSubLista.value=''">
+<button (click)="crearSubLista(tituloSubLista.value); tituloSubLista.value=''">Nueva Tarea</button>
+
 <div class="prueba2" *ngFor="let tarea of subLista">
   <span>{{tarea.titulo2}}</span>
+  <div class="botones">
+    <button class="completada" >✎</button>
+    <button class="eliminar" (click)="eliminarTarea(tarea)">✘</button>
+    <button class="noCompletada" (click)="completarTarea($event)">✓</button>
+  </div>
 </div>

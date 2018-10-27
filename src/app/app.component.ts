@@ -6,16 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+
   title = 'listadetareas-app';
   listas = [];
-  subLista = [];
   crearLista(titulo){
     var nuevaLista={
       titulo: titulo,
-      consola: console.log("hola")
+      subLista: []
     }
     this.listas.push(nuevaLista)
   };
-
-/*  hola() {console.log(document.getElementById((this).attr('id')).parentNode.parentNode.id)}*/
+  eliminarLista(tarea){
+    console.log(this.listas.indexOf(tarea));
+    this.listas.splice(this.listas.indexOf(tarea),1)
+  };
 }
